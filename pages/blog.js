@@ -171,7 +171,7 @@ export default class blog extends Component {
         justify-content: center;
       }
       .card {
-        margin: 0 1rem;
+        margin: 1rem;
         padding: 80px 18px;
         width: 220px;
         text-align: center;
