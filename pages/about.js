@@ -29,9 +29,9 @@ export default class about extends Component {
           }}>
           <div style={{
             background: 'yellow',
-            margin: '4rem auto 0 auto',
-            padding: '5rem 1rem',
-            width: '90%',
+            margin: '4rem 6rem 0 6rem',
+            padding: '3rem 1rem',
+            width: '80%',
             fontFamily: 'inherit',
             fontWeight: '800',
             textDecoration: 'none',

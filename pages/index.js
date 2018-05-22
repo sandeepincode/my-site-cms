@@ -23,27 +23,27 @@ export default () => (
         <div style={{
           background: 'none',
           border: 'solid',
-          margin: '4rem auto 0 auto',
-          padding: '5rem 1rem',
-          width: '90%',
+          margin: '3rem 6rem 0 6rem',
+          padding: '2rem 1rem',
+          width: '100%',
           fontFamily: 'inherit',
           fontWeight: '800',
           textDecoration: 'none',
           color: 'black',
         }}>
-          <div style={{margin: '5rem'}}>
+          <div style={{margin: '2rem'}}>
             <div>
-              <div style={{fontSize: '5rem'}}>
+              <div style={{fontSize: '3.5rem'}}>
                 Hello World.
               </div>
             </div>
             <div>
-              <div style={{fontSize: '3rem'}}>
+              <div style={{fontSize: '1.5rem'}}>
                 Here Lies The 4 Doors To Perspective.
               </div>
             </div>
             <div>
-              <div style={{fontSize: '4rem'}}>
+              <div style={{fontSize: '3rem'}}>
                 ⊙﹏⊙
               </div>
             </div>
@@ -51,17 +51,17 @@ export default () => (
         </div>
       </div>
       <div className="row">
-        <a href="/about">
+        <a href="/about"  style={{width: '100%'}}>
           <div className="card-about">
             <h3>About.</h3>
           </div>
         </a>
-        <a href="/blog">
+        <a href="/blog"  style={{width: '100%'}}>
           <div className="card-blog">
             <h3>Blog.</h3>
           </div>
         </a>
-        <a href="/projects">
+        <a href="/projects"  style={{width: '100%'}}>
           <div className="card-projects">
             <h3>Projects.</h3>
           </div>
@@ -86,10 +86,9 @@ export default () => (
       }
       .card-xl {
         background: black;
-        margin: 1rem auto;
-        padding: 80px 18px;
-        width: 220px;
-        text-align: center;
+        margin: 0.5rem 6rem;
+        padding: 40px 50px;
+        text-align: left;
         text-decoration: none;
         color: white;
         border: none;
@@ -109,7 +108,7 @@ export default () => (
       }
       .row {
         max-width: 880px;
-        margin: 80px auto 40px;
+        margin: 10px auto 40px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -120,13 +119,12 @@ export default () => (
        font-weight: 800;
        }
       .card-about {
-        margin: 1rem;
-        padding: 80px 18px;
-        width: 220px;
-        text-align: center;
+        background: black;
+        margin: 0.5rem 6rem;
+        padding: 40px 50px;
+        text-align: left;
         text-decoration: none;
         color: white;
-        background: black;
         border: none;
       }
       .card-about:hover {
@@ -144,13 +142,12 @@ export default () => (
         font-size: 18px;
       }
       .card-blog {
-        margin: 1rem;
-        padding: 80px 18px;
-        width: 220px;
-        text-align: center;
+        background: black;
+        margin: 0.5rem 6rem;
+        padding: 40px 50px;
+        text-align: left;
         text-decoration: none;
         color: white;
-        background: black;
         border: none;
       }
       .card-blog:hover {
@@ -168,14 +165,12 @@ export default () => (
         font-size: 18px;
       }
       .card-projects {
-        margin: 1rem;
-        padding: 80px 18px;
-        width: 220px;
-        text-align: center;
+        background: black;
+        margin: 0.5rem 6rem;
+        padding: 40px 50px;
+        text-align: left;
         text-decoration: none;
         color: white;
-        background: black;
-        border: none;
       }
       .card-projects:hover {
         border-color: none;
