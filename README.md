@@ -25,6 +25,10 @@ are found once you create a space in contentful.
  3. Make some content in the content tab in contentful.
  4. npm i 
  5. npm run dev
+
+# Preview
+
+![Alt text](/preview.png?raw=true "Title")
  
  <br/>
  Regards,
