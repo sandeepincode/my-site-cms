@@ -44,7 +44,7 @@ export default class github extends Component {
             }}>
             <div style={{margin: '2rem'}}>
               <div style={{display: 'flex'}}>
-                <div style={{fontSize: '3.5rem'}}>
+                <div style={{fontSize: '2.5rem'}}>
                     {project.name}
                   </div>
                 </div>
@@ -167,35 +167,6 @@ export default class github extends Component {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-      }
-      .card {
-        margin: 1rem;
-        padding: 80px 18px;
-        width: 220px;
-        text-align: center;
-        text-decoration: none;
-        color: white;
-        background: black;
-        border: none;
-      }
-      .card:hover {
-        border-color: none;
-        box-shadow: none;
-        background-color: cyan;
-        color: black;
-      }
-      .card:hover h3 {
-        color: black;
-      }
-      .card h3 {
-        margin: 0;
-        color: white;
-        font-size: 18px;
-      }
-      .card p {
-        margin: 0;
-        padding: 12px 0 0;
-        font-size: 13px;
       }
     `}</style>
       </div>

@@ -66,17 +66,17 @@ export default class about extends Component {
 
           <div className="row">
             <a href="/" style={{width: '100%',  textDecoration: 'none'}}>
-              <div className="card">
+              <div className="card-xl">
                 <h3>Home.</h3>
               </div>
             </a>
             <a href="/blog" style={{width: '100%',  textDecoration: 'none'}}>
-              <div className="card">
+              <div className="card-xl">
                 <h3>Blog.</h3>
               </div>
             </a>
             <a href="/projects" style={{width: '100%',  textDecoration: 'none'}}>
-              <div className="card">
+              <div className="card-xl">
                 <h3>Projects.</h3>
               </div>
             </a>
@@ -122,34 +122,6 @@ export default class about extends Component {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-      }
-      .card {
-        background: black;
-        margin: 0.5rem 6rem;
-        padding: 40px 50px;
-        text-align: left;
-        text-decoration: none;
-        color: white;
-        border: none;
-      }
-      .card:hover {
-        border-color: none;
-        box-shadow: none;
-        background-color: yellow;
-        color: black;
-      }
-      .card:hover h3 {
-        color: black;
-      }
-      .card h3 {
-        margin: 0;
-        color: white;
-        font-size: 18px;
-      }
-      .card p {
-        margin: 0;
-        padding: 12px 0 0;
-        font-size: 13px;
       }
     `}</style>
       </div>
