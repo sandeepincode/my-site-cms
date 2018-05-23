@@ -7,8 +7,8 @@ const dev = process.env.NODE_ENV !== 'production';
 const app = next({ dev });
 const handle = app.getRequestHandler();
 
-const SPACE_ID = 'tldq5s09trqi';
-const ACCESS_TOKEN = '86ccb240cd1a1d71625c68a35d55ea554f6e06eb6f3d7a09fa4ec70d066c4ec5';
+const SPACE_ID = 'SPACE_ID';
+const ACCESS_TOKEN = 'ACCESS_TOKEN';
 
 const client = contentful.createClient({
   space: SPACE_ID,
