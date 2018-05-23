@@ -33,31 +33,31 @@ export default class blog extends Component {
           }}>
           <div style={{
             background: 'springgreen',
-            margin: '2rem auto',
-            padding: '5rem 1rem',
-            width: '90%',
+            border: 'none',
+            margin: '3rem 6rem 0 6rem',
+            padding: '2rem 1rem',
+            width: '100%',
             fontFamily: 'inherit',
             fontWeight: '800',
             textDecoration: 'none',
             color: 'black',
-            border: 'none'
           }}>
-            <div style={{margin: '5rem'}}>
+            <div style={{margin: '2rem'}}>
               <div>
-                <div style={{fontSize: '5rem', textAlign: 'center'}}>
+                <div style={{fontSize: '3.5rem', textAlign: 'left'}}>
                   {this.props.query.title}
                 </div>
               </div>
-              <div style={{textAlign: 'center'}}>
-                <div style={{fontSize: '3rem'}}>
+              <div>
+                <div style={{fontSize: '1.5rem'}}>
                   {moment(this.props.query.date).format('ddd Do MMM YY')}
                 </div>
               </div>
-              <div style={{fontSize: '1rem', textAlign: 'center'}}>
+              <div style={{fontSize: '1rem'}}>
                 {this.props.query.description}
               </div>
 
-              <div style={{marginTop: '5rem', fontSize: '1rem'}}>
+              <div style={{marginTop: '2rem', fontSize: '1rem'}}>
                 {this.props.query.content}
               </div>
 
@@ -79,22 +79,22 @@ export default class blog extends Component {
           {blogs}
 
           <div className="row">
-            <a href="/about">
-              <div className="card">
+            <a href="/about"  style={{width: '100%',  textDecoration: 'none'}}>
+              <div className="card-xl">
                 <h3>About.</h3>
               </div>
             </a>
-            <a href="/blog">
-              <div className="card">
+            <a href="/blog" style={{width: '100%',  textDecoration: 'none'}}>
+              <div className="card-xl">
                 <h3>Back.</h3>
               </div>
             </a>
-            <a href="/projects">
-              <div className="card">
+            <a href="/projects" style={{width: '100%',  textDecoration: 'none'}}>
+              <div className="card-xl">
                 <h3>Projects.</h3>
               </div>
             </a>
-            <a href="/github" style={{width: '100%'}}>
+            <a href="/github" style={{width: '100%',  textDecoration: 'none'}}>
               <div className="card-xl">
                 <h3>Github.</h3>
               </div>
@@ -108,10 +108,9 @@ export default class blog extends Component {
       }
       .card-xl {
         background: black;
-        margin: 1rem auto;
-        padding: 80px 18px;
-        width: 220px;
-        text-align: center;
+        margin: 0.5rem 6rem;
+        padding: 40px 50px;
+        text-align: left;
         text-decoration: none;
         color: white;
         border: none;
@@ -131,7 +130,7 @@ export default class blog extends Component {
       }
       .row {
         max-width: 880px;
-        margin: 80px auto 40px;
+        margin: 10px auto 40px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;

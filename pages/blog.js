@@ -35,27 +35,27 @@ export default class blog extends Component {
             }}>
             <div style={{
               background: 'springgreen',
-              margin: '2rem auto 0 auto',
-              padding: '5rem 1rem',
-              width: '90%',
+              margin: '1rem 6rem 0 6rem',
+              padding: '2rem 1rem',
+              width: '100%',
               fontFamily: 'inherit',
               fontWeight: '800',
               textDecoration: 'none',
               color: 'black',
               border: 'none'
             }}>
-              <div style={{margin: '5rem'}}>
+              <div style={{margin: '2rem'}}>
                 <div style={{display: 'flex'}}>
-                  <div style={{fontSize: '4rem'}}>
+                  <div style={{fontSize: '3.5rem'}}>
                     {blog.title}
                   </div>
                 </div>
                 <div style={{marginLeft: 'auto', display: 'flex'}}>
-                  <div style={{fontSize: '3rem'}}>
+                  <div style={{fontSize: '1.5rem'}}>
                     {moment(blog.date).format('ddd Do MMM YY')}
                   </div>
                 </div>
-                <div style={{fontSize: '2rem'}}>
+                <div style={{fontSize: '1rem'}}>
                   {blog.description}
                 </div>
               </div>
@@ -84,23 +84,23 @@ export default class blog extends Component {
             }}>
             <div style={{
               background: 'springgreen',
-              margin: '4rem auto 0 auto',
-              padding: '5rem 1rem',
-              width: '90%',
+              margin: '10px 6rem 0 6rem',
+              padding: '2rem 1rem',
+              width: '100%',
               fontFamily: 'inherit',
               fontWeight: '800',
               textDecoration: 'none',
               color: 'black',
               border: 'none'
             }}>
-              <div style={{margin: '5rem'}}>
+              <div style={{margin: '2rem'}}>
                 <div>
-                  <div style={{fontSize: '5rem'}}>
+                  <div style={{fontSize: '3.5rem'}}>
                     Blogs.
                   </div>
                 </div>
                 <div>
-                  <div style={{fontSize: '3rem'}}>
+                  <div style={{fontSize: '1.5rem'}}>
                     My Journey and Outlook.
                   </div>
                 </div>
@@ -113,22 +113,22 @@ export default class blog extends Component {
           </div>
 
           <div className="row">
-            <a href="/about">
-              <div className="card">
+            <a href="/about"  style={{width: '100%',  textDecoration: 'none'}}>
+              <div className="card-xl">
                 <h3>About.</h3>
               </div>
             </a>
-            <a href="/">
-              <div className="card">
+            <a href="/"  style={{width: '100%',  textDecoration: 'none'}}>
+              <div className="card-xl">
                 <h3>Home.</h3>
               </div>
             </a>
-            <a href="/projects">
-              <div className="card">
+            <a href="/projects"  style={{width: '100%',  textDecoration: 'none'}}>
+              <div className="card-xl">
                 <h3>Projects.</h3>
               </div>
             </a>
-            <a href="/github" style={{width: '100%'}}>
+            <a href="/github"  style={{width: '100%',  textDecoration: 'none'}}>
               <div className="card-xl">
                 <h3>Github.</h3>
               </div>
@@ -142,10 +142,9 @@ export default class blog extends Component {
       }
       .card-xl {
         background: black;
-        margin: 1rem auto;
-        padding: 80px 18px;
-        width: 220px;
-        text-align: center;
+        margin: 0.5rem 6rem;
+        padding: 40px 50px;
+        text-align: left;
         text-decoration: none;
         color: white;
         border: none;
@@ -165,7 +164,7 @@ export default class blog extends Component {
       }
       .row {
         max-width: 880px;
-        margin: 80px auto 0;
+        margin: 10px auto 40px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -181,7 +180,7 @@ export default class blog extends Component {
         border: none;
       }
       .card:hover {
-        border-color: none;
+        border-color: none;1
         box-shadow: none;
         background-color: springgreen;
         color: black;

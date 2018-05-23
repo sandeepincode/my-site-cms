@@ -51,22 +51,22 @@ export default () => (
         </div>
       </div>
       <div className="row">
-        <a href="/about"  style={{width: '100%'}}>
+        <a href="/about"  style={{width: '100%',  textDecoration: 'none'}}>
           <div className="card-about">
             <h3>About.</h3>
           </div>
         </a>
-        <a href="/blog"  style={{width: '100%'}}>
+        <a href="/blog"  style={{width: '100%',  textDecoration: 'none'}}>
           <div className="card-blog">
             <h3>Blog.</h3>
           </div>
         </a>
-        <a href="/projects"  style={{width: '100%'}}>
+        <a href="/projects"  style={{width: '100%',  textDecoration: 'none'}}>
           <div className="card-projects">
             <h3>Projects.</h3>
           </div>
         </a>
-        <a href="/github" style={{width: '100%'}}>
+        <a href="/github" style={{width: '100%',  textDecoration: 'none'}}>
           <div className="card-xl">
             <h3>Github.</h3>
           </div>

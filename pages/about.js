@@ -29,23 +29,23 @@ export default class about extends Component {
           }}>
           <div style={{
             background: 'yellow',
-            margin: '4rem 6rem 0 6rem',
-            padding: '3rem 1rem',
-            width: '80%',
+            margin: '3rem 6rem 0 6rem',
+            padding: '2rem 1rem',
+            width: '100%',
             fontFamily: 'inherit',
             fontWeight: '800',
             textDecoration: 'none',
             color: 'black',
             border: 'none'
           }}>
-            <div style={{margin: '5rem'}}>
+            <div style={{margin: '2rem'}}>
               <div>
-                <div style={{fontSize: '5rem'}}>
+                <div style={{fontSize: '3.5rem'}}>
                   About.
                 </div>
               </div>
               <div>
-                <div style={{fontSize: '3rem'}}>
+                <div style={{fontSize: '1.5rem'}}>
                   {this.props.query.description}
                 </div>
               </div>
@@ -65,22 +65,22 @@ export default class about extends Component {
           {about}
 
           <div className="row">
-            <a href="/">
+            <a href="/" style={{width: '100%',  textDecoration: 'none'}}>
               <div className="card">
                 <h3>Home.</h3>
               </div>
             </a>
-            <a href="/blog">
+            <a href="/blog" style={{width: '100%',  textDecoration: 'none'}}>
               <div className="card">
                 <h3>Blog.</h3>
               </div>
             </a>
-            <a href="/projects">
+            <a href="/projects" style={{width: '100%',  textDecoration: 'none'}}>
               <div className="card">
                 <h3>Projects.</h3>
               </div>
             </a>
-            <a href="/github" style={{width: '100%'}}>
+            <a href="/github" style={{width: '100%', textDecoration: 'none'}}>
               <div className="card-xl">
                 <h3>Github.</h3>
               </div>
@@ -96,10 +96,9 @@ export default class about extends Component {
       }
       .card-xl {
         background: black;
-        margin: 1rem auto;
-        padding: 80px 18px;
-        width: 220px;
-        text-align: center;
+        margin: 0.5rem 6rem;
+        padding: 40px 50px;
+        text-align: left;
         text-decoration: none;
         color: white;
         border: none;
@@ -119,19 +118,18 @@ export default class about extends Component {
       }
       .row {
         max-width: 880px;
-        margin: 80px auto 40px;
+        margin: 10px auto 40px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
       }
       .card {
-        margin: 1rem;
-        padding: 80px 18px;
-        width: 220px;
-        text-align: center;
+        background: black;
+        margin: 0.5rem 6rem;
+        padding: 40px 50px;
+        text-align: left;
         text-decoration: none;
         color: white;
-        background: black;
         border: none;
       }
       .card:hover {
